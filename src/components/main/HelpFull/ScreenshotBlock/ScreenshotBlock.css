@@ -1,0 +1,38 @@
+.ScreenshotBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ScreenshotBlock_img {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 3px solid #3b383828;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.ScreenshotBlock_h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+    .ScreenshotBlock {
+        display: block;
+        margin-left: -20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+    .ScreenshotBlock {
+        display: block;
+        text-align: center;
+        margin-left: -40px;
+    }
+}

@@ -1,0 +1,19 @@
+.VButtons {
+    margin-top: 30px;
+}
+
+.AccordionDetails {
+    background-color: #c8aee2;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+    .ValheimButtons {
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+    .ValheimButtons {
+        margin-left: -40px;
+    }
+}

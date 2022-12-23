@@ -1,0 +1,46 @@
+.HeaderBar_block {
+    display: flex;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+    .HeaderBar_block {
+        display: block;
+    }
+
+    .HeaderBar_media_button {
+        margin-left: -20px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-right: 3px;
+        border: 1px solid #3b383828;
+        box-shadow: 0 0 .2rem rgb(141, 135, 135),
+            0 0 0.8rem #987bb1,
+            0 0 2.8rem #987bb1,
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+    .HeaderBar_block {
+        display: block;
+    }
+
+    .HeaderBar_media_button {
+        margin-left: -20px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-right: 3px;
+        border: 1px solid #3b383828;
+        box-shadow: 0 0 .2rem rgb(141, 135, 135),
+            0 0 0.8rem #987bb1,
+            0 0 2.8rem #987bb1,
+    }
+}

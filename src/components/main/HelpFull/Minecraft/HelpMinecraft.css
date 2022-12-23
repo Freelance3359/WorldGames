@@ -1,0 +1,21 @@
+.HelpMinecraft {
+    width: 100%;
+    margin-top: 50px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 600px;
+    border: 3px solid #3b383828;
+    box-shadow: 0 0 .2rem rgb(141, 135, 135),
+        0 0 0.8rem #987bb1,
+        0 0 2.8rem #987bb1,
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+    .HelpMinecraft {
+        width: 300px;
+        margin-left: -20px;
+        height: 200px;
+    }
+}
